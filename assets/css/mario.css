@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+}
+
+#container {
+    background-image: url('../img/stage01.jpg');
+    background-position: 1px -1px;
+    background-repeat: no-repeat;
+    width: 564px;
+    height: 317px;
+    display: grid;
+    grid-template-columns: repeat(30,18.8px);
+    grid-template-rows: repeat(17,18.6470588235px);
+}
+
+mario {
+    display: block;
+    background-image: url('../img/mario_and_items.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 18px;
+    height: 36px;
+}
+
+mario.small {
+    background-position: 2px -72px;
+    height: 18px;
+    position:relative;
+    top: 18px;
+}
+
+fire-mario {
+    display: block;
+    background-image: url('../img/mario_and_items.png');
+    background-repeat: no-repeat;
+    background-position: 0 -36px;
+    width: 18px;
+    height: 36px;
+}
+
+[col="1"] { grid-column-start: 1; }
+[col="2"] { grid-column-start: 2; }
+[col="3"] { grid-column-start: 3; }
+[col="4"] { grid-column-start: 4; }
+[col="5"] { grid-column-start: 5; }
+[col="6"] { grid-column-start: 6; }
+[col="7"] { grid-column-start: 7; }
+[col="8"] { grid-column-start: 8; }
+[col="9"] { grid-column-start: 9; }
+[col="10"] { grid-column-start: 10; }
+[col="11"] { grid-column-start: 11; }
+[col="12"] { grid-column-start: 12; }
+[col="13"] { grid-column-start: 13; }
+[col="14"] { grid-column-start: 14; }
+[col="15"] { grid-column-start: 15; }
+[col="16"] { grid-column-start: 16; }
+[col="17"] { grid-column-start: 17; }
+[col="18"] { grid-column-start: 18; }
+[col="19"] { grid-column-start: 19; }
+[col="20"] { grid-column-start: 20; }
+[col="21"] { grid-column-start: 21; }
+[col="22"] { grid-column-start: 22; }
+[col="23"] { grid-column-start: 23; }
+[col="24"] { grid-column-start: 24; }
+[col="25"] { grid-column-start: 25; }
+[col="26"] { grid-column-start: 26; }
+[col="27"] { grid-column-start: 27; }
+[col="26"] { grid-column-start: 26; }
+[col="28"] { grid-column-start: 28; }
+[col="29"] { grid-column-start: 29; }
+[col="30"] { grid-column-start: 30; }
+
+[row="1"] { grid-row-start: 1; }
+[row="2"] { grid-row-start: 2; }
+[row="3"] { grid-row-start: 3; }
+[row="4"] { grid-row-start: 4; }
+[row="5"] { grid-row-start: 5; }
+[row="6"] { grid-row-start: 6; }
+[row="7"] { grid-row-start: 7; }
+[row="8"] { grid-row-start: 8; }
+[row="9"] { grid-row-start: 9; }
+[row="10"] { grid-row-start: 10; }
+[row="11"] { grid-row-start: 11; }
+[row="12"] { grid-row-start: 12; }
+[row="13"] { grid-row-start: 13; }
+[row="14"] { grid-row-start: 14; }
+[row="15"] { grid-row-start: 15; }
+[row="16"] { grid-row-start: 16; }
+[row="17"] { grid-row-start: 17; }

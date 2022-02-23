@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS Selector Playground</title>
+        <link rel="stylesheet" href="./assets/css/mario.css" />
+    </head>
+    <body>
+        <div id="container">
+            <mario col="10" row="14"></mario>
+            <mario class="small" col="9" row="10"></mario>
+            <fire-mario col="11" row="14"></fire-mario>
+        </div>
+        <dialog id="appModal">
+            I'm dialog.
+        </dialog>
+    </body>
+</html>
+<script>
+    window.onload = ()=>{
+        let dialog = document.getElementById('dialog');
+        window.appModal.show();
+        window.appModal.close();
+    }
+</script>
